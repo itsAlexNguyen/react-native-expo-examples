@@ -9,7 +9,7 @@ export default function HelloWorld1() {
         flex: 1,
         justifyContent: "center",
         alignItems: "center",
-        backgroundColor: "#3498db",
+        backgroundColor: "red",
       }}
     >
       {/* https://reactnative.dev/docs/text */}
@@ -21,7 +21,7 @@ export default function HelloWorld1() {
           textTransform: "uppercase",
         }}
       >
-        Hello world!
+        HELLO TD!
       </Text>
     </View>
   );

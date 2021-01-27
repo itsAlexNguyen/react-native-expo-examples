@@ -23,40 +23,36 @@ export default function FacebookLogin() {
         <View style={styles.content}>
           <TextInput
             style={[styles.input, styles.inputUsername]}
-            placeholder="Số điện thoại hoặc email"
+            placeholder="Enter email"
             placeholderTextColor="#cdcdcf"
           />
 
           <TextInput
             style={[styles.input, styles.inputPassword]}
             secureTextEntry={true}
-            placeholder="Mật khẩu"
+            placeholder="Enter Password"
             placeholderTextColor="#cdcdcf"
           />
 
           <TouchableOpacity style={styles.button}>
-            <Text style={styles.buttonText}>Đăng nhập</Text>
+            <Text style={styles.buttonText}>Login</Text>
           </TouchableOpacity>
 
           <TouchableOpacity style={styles.link}>
-            <Text style={styles.linkText}>Quên mật khẩu?</Text>
-          </TouchableOpacity>
-
-          <TouchableOpacity style={styles.link}>
-            <Text style={styles.linkText}>Quay lại</Text>
+            <Text style={styles.linkText}>Forgot Password?</Text>
           </TouchableOpacity>
         </View>
 
         <View style={styles.footer}>
           <View style={styles.divider}>
             <View style={styles.dividerLine} />
-            <Text style={styles.dividerText}>HOẶC</Text>
+            <Text style={styles.dividerText}>OR</Text>
             <View style={styles.dividerLine} />
           </View>
 
           <TouchableOpacity style={[styles.button, styles.buttonRegister]}>
             <Text style={[styles.buttonText, styles.buttonRegisterText]}>
-              Tạo tài khoản mới
+              Create an Account
             </Text>
           </TouchableOpacity>
         </View>

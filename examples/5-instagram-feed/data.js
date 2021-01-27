@@ -30,7 +30,7 @@ export const articles = [
     name: "5.min.craft",
     image: require("../../assets/instagram-feed/img1.jpg"),
     likeCount: "23",
-    date: "1 giờ trước",
+    date: "1 hour ago",
   },
   {
     id: 2,
@@ -38,7 +38,7 @@ export const articles = [
     name: "5.min.craft",
     image: require("../../assets/instagram-feed/img2.jpg"),
     likeCount: "46",
-    date: "3 giờ trước",
+    date: "3 hours ago",
   },
   {
     id: 3,
@@ -46,7 +46,7 @@ export const articles = [
     name: "thangflycomicsoffical",
     image: require("../../assets/instagram-feed/img3.jpg"),
     likeCount: "72",
-    date: "8 giờ trước",
+    date: "8 hours ago",
   },
   {
     id: 4,
@@ -54,7 +54,7 @@ export const articles = [
     name: "teammonsterbox",
     image: require("../../assets/instagram-feed/img4.jpg"),
     likeCount: "19",
-    date: "1 ngày trước",
+    date: "yesterday",
   },
   {
     id: 5,
@@ -62,6 +62,6 @@ export const articles = [
     name: "teammonsterbox",
     image: require("../../assets/instagram-feed/img5.jpg"),
     likeCount: "12",
-    date: "2 ngày trước",
+    date: "2 days ago",
   },
 ];

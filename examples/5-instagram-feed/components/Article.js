@@ -61,7 +61,7 @@ export default function Article({ item }) {
       </View>
 
       <View style={styles.info}>
-        <Text style={styles.likeCount}>{item.likeCount} lượt thích</Text>
+        <Text style={styles.likeCount}>{item.likeCount} likes</Text>
         <Text style={styles.date}>{item.date}</Text>
       </View>
     </View>
