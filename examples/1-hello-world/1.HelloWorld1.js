@@ -21,7 +21,7 @@ export default function HelloWorld1() {
           textTransform: "uppercase",
         }}
       >
-        HELLO TD!
+        HELLO WORLD!
       </Text>
     </View>
   );

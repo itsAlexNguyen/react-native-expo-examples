@@ -1,5 +1,5 @@
 // Register API Key here for more requests & APIs: https://newsapi.org
-const API_KEY = "ce52845d6e754123b3ecf9f68006b846";
+const API_KEY = "<INSERT API KEY>";
 
 export async function getNews(page = 1, pageSize = 20) {
   const response = await fetch(

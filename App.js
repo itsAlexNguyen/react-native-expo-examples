@@ -9,8 +9,8 @@ import WorldwideNews from "./examples/11-news/WorldwideNews";
 import Pokedex from "./examples/12-pokedex/Pokedex";
 
 export default function App(){
-  // return <HelloWorld1 />;
-  return <FacebookLogin />;
+  return <HelloWorld1 />;
+  // return <FacebookLogin />;
   // return <TheLight />;
   // return <InstagramFeed />;
   // return <RockPaperScissors />;
